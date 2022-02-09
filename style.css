@@ -21,6 +21,11 @@ body{
 .search{
     position: relative;
 }
+
+.search.active .result-box{
+    opacity: 1;
+}
+
 .search input{
     width: 100%;
     font-size: 18px;
